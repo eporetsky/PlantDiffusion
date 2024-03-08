@@ -34,7 +34,7 @@ RUN sudo pip install scikit-learn==0.24.2 --no-build-isolation
 
 
 
-ADD scripts/installthemes.sh /home/devuser/installthemes.sh
+ADD installthemes.sh /home/devuser/installthemes.sh
 USER devuser
 ENV TERM xterm
 ENV ZSH_THEME agnoster
